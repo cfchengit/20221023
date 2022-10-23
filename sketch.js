@@ -37,7 +37,7 @@ function gotFaces(error, result) {
   
   translate(video.width,0);
   scale(-1,1);
-  // image(video,0,0);
+  image(video,0,0);
   
   drawBoxs(detections);//Draw detection box: 顔の周りの四角の描画
   drawLandmarks(detections);//// Draw all the face points: 全ての顔のポイントの描画
